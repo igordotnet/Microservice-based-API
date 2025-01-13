@@ -48,10 +48,12 @@ I prefer using Postman (a API desktop app) in order to do this. For this exersiz
 4. For the options select the following (Body, Raw, JSON)
 5. Input the information of the user you would like to create in JSON standard formating. Here is a example
 
-```{
+```
+{
     "name": "Testie McGeee",
     "email": "Test@gmail.com"
-} ```
+} 
+```
 
 
 6. You should receive a status of 201, this ensures the data was trasfered successfully
