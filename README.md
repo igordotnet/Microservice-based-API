@@ -66,3 +66,6 @@ I prefer using Postman (a API desktop app) in order to do this. For this exersiz
 
 * If you ran it the other way just press
 ```Control``` + ```C```
+
+# Troubleshooting
+Since for this example I am connecting to my local postgreSQL server I have included the information (user name, password, etc) and hardcoded into the ```docker-compose``` file. So either make a new server with the super secure password of 12345 to test it, or change the values in the ```docker-compose``` file to your match your personal PGAdmin account
