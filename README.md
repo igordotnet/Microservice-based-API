@@ -16,10 +16,10 @@ Design a microservice-based API for user management using Docker and PostgreSQL.
 * On the terminal line run one of the possible docker commands 
 
 1. Build and start the containers
-'''docker-compose up --build'''
+```docker-compose up --build```
 
 2. To run in detached mode
-'''docker-compose up -d --build'''
+```docker-compose up -d --build```
 
 After a couple minutes everything should initialize. Once you see a new docker image and its running you should be good to go!
 
