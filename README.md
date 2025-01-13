@@ -56,8 +56,13 @@ I prefer using Postman (a API desktop app) in order to do this. For this exersiz
 ```
 
 
-6. You should receive a status of 201, this ensures the data was trasfered successfully
+6. You should receive a status of 201, this ensures the data was trasfered successfully. You can check via URL or PGAdmin to verify
 7. Hire me :3
 
 # To stop the containers
-docker-compose down
+
+* If you ran it in detached mode just type
+```docker-compose down```
+
+* If you ran it the other way just press
+```Control``` + ```C```
