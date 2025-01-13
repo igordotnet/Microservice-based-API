@@ -12,7 +12,7 @@ Design a microservice-based API for user management using Docker and PostgreSQL.
 * Implement a robust user management service
 
 # Step-by-step runnin' da code 🏃
-1. Clone the repository (duh)
+1. Clone the repository
 2. On the terminal line run one of the possible docker commands 
 
 * Build and start the containers
@@ -25,7 +25,7 @@ After a couple minutes everything should initialize. Once you see a new docker i
 
 # Checking work
 
-There are two greate ways to check the API 
+Here are two ways to check the API 
 
 1. By URL
 
@@ -40,7 +40,7 @@ If you prefer the Desktop app or Docker Extension you should be able to see the 
 
 # Adding/Updating/Checking/Removing Users
 
-I prefer using Postman (a API desktop app) in order to do this. For this exersize I will guide you on creating a user, but to Update-check or Remove users it will be similar steps.
+I prefer using Postman (a API desktop app) in order to do this. For this exercise I will guide you on creating a user. If you update,check or remove users it will be similar steps to this example.
 
 1. Start a New Process
 2. In the URL section type ```http://localhost:3001/api/user```
