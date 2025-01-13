@@ -1,0 +1,7 @@
+IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='users' AND xtype='U')
+CREATE TABLE users (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    name NVARCHAR(100) NOT NULL,
+    email NVARCHAR(100) UNIQUE NOT NULL,
+    created_at DATETIME DEFAULT GETDATE()
+);
